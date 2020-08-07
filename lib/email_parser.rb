@@ -3,8 +3,8 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
-class EmailAParser
-
+class EmailAddressParser
+  
   attr_accessor :emails
 
   def initialize(emails)
@@ -20,7 +20,7 @@ class EmailAParser
 
 end
 
-emails = "hpotter@hogwarts.org, he_who_must_not_be_named@riddleshouse.net"
+emails = "bleepbeep@immasheep.org, isaidbleepbeep@imasheep.net"
 parser = EmailParser.new(emails)
 
 puts parser.parse
