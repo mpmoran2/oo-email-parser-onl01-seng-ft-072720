@@ -20,7 +20,3 @@ class EmailAddressParser
 
 end
 
-emails = "bleepbeep@immasheep.org, isaidbleepbeep@imasheep.net"
-parser = EmailParser.new(emails)
-
-puts parser.parse
